@@ -6,5 +6,10 @@ from django.http import HttpResponse
 def index(request):
     return render(request, 'index.html', {'y': [1, 2, 3]})
 
+
 def post(request):
     return render(request, 'single-news.html')
+
+
+def about(request):
+    return render(request, 'about.html')
