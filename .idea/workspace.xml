@@ -5,10 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="42b903a8-5049-4f8c-be1f-15d6741fdc49" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/collegejuggad/blogs/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/collegejuggad/blogs/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/collegejuggad/blogs/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/collegejuggad/blogs/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/collegejuggad/templates/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/collegejuggad/templates/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/collegejuggad/templates/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/collegejuggad/templates/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/collegejuggad/templates/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/collegejuggad/templates/footer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/collegejuggad/templates/navbar.html" beforeDir="false" afterPath="$PROJECT_DIR$/collegejuggad/templates/navbar.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
