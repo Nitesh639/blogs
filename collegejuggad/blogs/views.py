@@ -20,4 +20,9 @@ def contact(request):
 
 
 def blog_write(request):
-    return render(request, 'blog_write.html')
+    if request.method == 'POST':
+        val = request.POST['MyID']
+        print(val)
+        return render(request, 'single-news.html', {'val': val})
+    else:
+        return render(request, 'blog_write.html')
