@@ -21,8 +21,10 @@ def contact(request):
 
 def blog_write(request):
     if request.method == 'POST':
-        val = request.POST['MyID']
-        print(val)
-        return render(request, 'single-news.html', {'val': val})
+        topic = request.POST['topic']
+        post_img = request.POST['post_img']
+        content = request.POST['content']
+        print(post_img, topic, content)
+        return render(request, 'single-news.html', {'content': content})
     else:
         return render(request, 'blog_write.html')
