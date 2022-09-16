@@ -4,21 +4,15 @@
 <script src="https://cdn.ckeditor.com/4.16.0/standard/ckeditor.js"></script>
 <div class="main">
     <form action="blog_write" method="POST" enctype="multipart/form-data">
+        {% csrf_token %}
         <h4>Title of the post</h4>
-        <input name="title" placeholder="">
+        <input name="topic" id="topic" placeholder="">
+        <br><br>
         <h5>Featured Images</h5>
-        <div class="input-field file-field">
-        <div class="btn">blog_write
-        Upload file
-        <input type="file" name="image">
-        </div>
-        <div class="file-path-wrapper">
-        <input type="text" class="file-path"></div>
-        </div>
-        <br>
+        <input type="file" name="post_img" id="post_img">
         <br>
         <h4>Content area </h4>
-        <textarea name="editor1"></textarea>
+        <textarea name="content" id="content"></textarea>
         <div class="center">
             <input type="submit" value="Publish" name="publish" class="btn white-text">
         </div>
@@ -30,5 +24,5 @@
 
 
                 <script>
-                        CKEDITOR.replace( 'editor1' );
+                        CKEDITOR.replace( 'content' );
                 </script>
